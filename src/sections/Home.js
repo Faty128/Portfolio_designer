@@ -10,7 +10,8 @@ const Home = () => {
     slidesToShow: 1, // Nombre d'images à afficher à la fois
     slidesToScroll: 1, // Nombre d'images à faire défiler à la fois
     autoplay: true, // Carrousel automatique
-    autoplaySpeed: 3000, // Vitesse du défilement automatique
+    autoplaySpeed: 2000, // Vitesse du défilement automatique
+    arrows: false, // Désactive les flèches de navigation
   };
 
   return (
